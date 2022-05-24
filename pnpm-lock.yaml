@@ -4,9 +4,11 @@ importers:
 
   .:
     specifiers:
+      eslint-config-elegante: workspace:^0.0.1
       prettier: latest
       turbo: latest
     devDependencies:
+      eslint-config-elegante: link:packages/eslint-config-elegante
       prettier: 2.6.2
       turbo: 1.2.11
 
